@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Boards
 {
+    //  Описание доскок
     class InteractiveWhiteboard : Board, IWritingAffiliation
     {
         public string WritingAffiliation { get; set; }
